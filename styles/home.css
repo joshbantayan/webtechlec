@@ -1,0 +1,13 @@
+body{
+
+}
+
+#navigation {
+    display: block;
+    size: relative;
+    height: 100%;
+    width: 70px;
+    background-color: pink;
+    margin-top: 0px;
+    position: static;
+}
