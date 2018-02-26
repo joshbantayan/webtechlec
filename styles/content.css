@@ -29,7 +29,7 @@ li a:hover {
 }
 
 #www_container{
-    background-color: #CBE7EF;
+    background-color: #006989;
     background-size: cover;
     
 }
@@ -46,8 +46,10 @@ li a:hover {
     letter-spacing: 4px; 
 }
 
+
 .www_section_title{   
     width: inherit;
+    padding: 2px 15px 10px 2px;
     text-align: center;
     background-color: #ebb681;
     font-size: 30px;
@@ -56,6 +58,7 @@ li a:hover {
 
 .www_content{
     font-size: 20px;
+    color: white;
     padding-left: 30px;
 }
 
