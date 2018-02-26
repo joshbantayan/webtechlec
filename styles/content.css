@@ -47,7 +47,8 @@ li a:hover {
 }
 
 .www_section_title{   
-    width: 390px;
+    width: inherit;
+    text-align: center;
     background-color: #C0F7DE;
     font-size: 30px;
     font-family: Arial;
