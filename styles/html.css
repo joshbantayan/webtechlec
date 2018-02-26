@@ -55,6 +55,18 @@ li a:hover {
     padding-left:20px;
     }
 
+.title {
+    height: 70px;
+    padding-top: 5px;
+    padding-bottom: 30px;
+    background-color: #25283D;
+    color: white;
+    text-align: center;
+    font-family: Arial;
+    font-size: 30px;
+    letter-spacing: 4px; 
+}
+
 #section_title {
     height: 70px;
     padding-top: 5px;
