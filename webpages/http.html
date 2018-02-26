@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> HTTP </title>
+        <link rel="stylesheet" href="../styles/content.css">
+    </head>
+<body>
+    <ul>
+  <li><a href="../webpages/home.html">Home</a></li>
+  <li><a href="../webpages/www.html">WWW</a></li>
+  <li><a href="../webpages/url.html">URL</a></li>
+  <li><a href="../webpages/html.html">HTML</a></li>
+  <li><a href="../webpages/http.html">HTTP</a></li>
+  <li><a href="../webpages/html-preprocessors.html">HTML PREPROCESSORS</a></li>
+   </ul>
+    
+    <div id="http_container">
+        <div id="http_title_container">
+            <div id="http_title">
+                <p> Hypertext Transfer Protocol</p>
+            </div>
+        </div>
+        
+    <div class="http_section_title">
+        <p> What is HTTP? </p>
+    </div>
+    
+    <div class="http_section_content">
+        <p> The Hypertext Transfer Protocol(HTTP) is the network protocol standard used by the World Wide Web that defines commands and services used for transmitting web page data. It was invented by Tim Berners-Lee at CERV in 1989. It is an application protocol for distributed, collaborative, and hypermedia information systems that uses a server-client model. </p>
+    </div>
+        
+    <div class="http_section_title">
+        <p> HTTP Fundamentals </p>
+    </div>
+    
+    <div class="http_section_content">
+    <p> -Runs on top of TCP/IP </p>
+    <p> -Uses TCP port 80 by default</p>
+    <p> -Uses TCP port 443 (for HTTPS)</p>
+    </div>
+        
+    <div class="http_section_title">
+        <p> HTTP Extensions</p>
+    </div>
+        
+    <div class="http_section_content">
+        <p> Can be extended by defining new requests methods, message headers, and status codes to implement servers and/or clients who will utilize the new functionality</p>
+    </div>
+        
+    <div class="http_section_title">
+        <p> HTTP Resource Addressing</p>    
+    </div>
+
+    <div class="http_section_content">
+        <p>There is a need for a universal syntax in regards to obtaining information or resources in protocols and systems. For HTTP, resources are identified via the URIs.
+        </p>
+    </div>
+        
+    <div class="http_section_title">
+        <p> Standard HTTP Request Methods</p>
+    </div>
+    
+    <div class="http_section-content">
+        <p><b>GET </b> - Requests using GET retrieve data, and also requests a representation of the specified source. <br>
+        <b>POST </b> - The POST method is used to send requests to a web server to accept data in the body of the request message, which is intended for storage purposes. 
+        <br>
+        <b>HEAD </b> - This method requests for an identical response to that of a GET request, only excluding the response body.
+        <br>
+        <b>OPTIONS</b> - This OPTIONS method represents a request for information regarding the communication options available for the trusted source or managed resource. 
+        <br>
+        <b>PUT </b> - This method takes the place of all current representations of the managed resource; it requests that the enclosed entity be stored under the supplied request-URI. The enclosed entity should be considered a modified version of the original, only if under the case that the request-URI happens to refer to an existing resource. 
+        <br>
+        <b>DELETE</b> - The DELETE method simply deletes the resource specified. 
+        <br>
+        <b>CONNECT</b> - This method establishes a two-way communications with the requested resource, and opens up a tunnel to the server identified by the target resource.
+        <br>
+        <b>TRACE</b> - The TRACE method is used as a debugger to perform a message loop-back test to the user. <br>
+ </p>
+    </div>
+        
+    <div class="http_section_title">
+        <p> HTTP Method Properties</p>
+    </div>
+    
+    <div class="http_section_content">
+        <p><b>Safe Methods</b> - This is the property wherein the client does not request or expect any state change on the origin server output.
+        <br>
+        <b>Idempotent Methods</b> - This refers to the intended effect on the server where it would be identical when a single request is issued.
+        <br>
+	   Under the idempotent method falls the following request methods:
+        <b>GET, HEAD, OPTIONS, TRACE, PUT, DELETE</b>
+        <b>Cacheable Methods</b> - This property indicates that the response to a method is allowed to be stored for future reuses
+            Under the cacheable method falls the following request methods:
+            GET, HEAD, POST
+ </p>
+    </div>
+    </div>
+    
+</body>
+</html>
