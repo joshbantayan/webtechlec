@@ -21,6 +21,7 @@
             </div>
         </div>
         
+    <div class="http_section_container"> 
     <div class="http_section_title">
         <p> What is HTTP? </p>
     </div>
@@ -28,7 +29,10 @@
     <div class="http_section_content">
         <p> The Hypertext Transfer Protocol(HTTP) is the network protocol standard used by the World Wide Web that defines commands and services used for transmitting web page data. It was invented by Tim Berners-Lee at CERV in 1989. It is an application protocol for distributed, collaborative, and hypermedia information systems that uses a server-client model. </p>
     </div>
+     </div>
         
+        
+    <div class="http_section_container">    
     <div class="http_section_title">
         <p> HTTP Fundamentals </p>
     </div>
@@ -38,7 +42,10 @@
     <p> -Uses TCP port 80 by default</p>
     <p> -Uses TCP port 443 (for HTTPS)</p>
     </div>
+     </div>
         
+        
+    <div class="http_section_container"> 
     <div class="http_section_title">
         <p> HTTP Extensions</p>
     </div>
@@ -46,7 +53,9 @@
     <div class="http_section_content">
         <p> Can be extended by defining new requests methods, message headers, and status codes to implement servers and/or clients who will utilize the new functionality</p>
     </div>
+     </div>
         
+    <div class="http_section_container">     
     <div class="http_section_title">
         <p> HTTP Resource Addressing</p>    
     </div>
@@ -55,7 +64,9 @@
         <p>There is a need for a universal syntax in regards to obtaining information or resources in protocols and systems. For HTTP, resources are identified via the URIs.
         </p>
     </div>
-        
+    </div>
+    
+    <div class="http_section_container">  
     <div class="http_section_title">
         <p> Standard HTTP Request Methods</p>
     </div>
@@ -77,7 +88,9 @@
         <b>TRACE</b> - The TRACE method is used as a debugger to perform a message loop-back test to the user. <br>
  </p>
     </div>
-        
+    </div>
+    
+    <div class="http_section_container">  
     <div class="http_section_title">
         <p> HTTP Method Properties</p>
     </div>
@@ -90,10 +103,148 @@
 	   Under the idempotent method falls the following request methods:
         <b>GET, HEAD, OPTIONS, TRACE, PUT, DELETE</b>
         <b>Cacheable Methods</b> - This property indicates that the response to a method is allowed to be stored for future reuses
+            <br>
             Under the cacheable method falls the following request methods:
-            GET, HEAD, POST
+            <b>GET, HEAD, POST </b>
  </p>
+          </div>
+         </div>
+    
+    <div class="http_section_container"> 
+    <div class="http_section_title">
+        <p> HTTP Header Fields</p>
     </div>
+        
+    <div class="http_section_content">
+        <p>  Entity header fields are where both sender and recipient refer to either server or client, depending on who sends and receives the entity.
+        <b>HTTP Entity Header Fields</b> <br>
+        - Cache control <br>
+        - Connection <br>
+        - Date <br>
+        - Pragma <br>
+        - Trailer <br>
+        - Transfer Encoding <br>
+        - Upgrade <br>
+        - Via <br>
+        - Warning <br> <br>
+        <b> HTTP Request Header Fields </b> <br>
+        - Accept <br>
+        - Accept-Charset <br>
+        - Range <br>
+        - Host <br>
+        - Expect <br>
+        - From <br>
+        - Authorization <br> <br>
+        <b> HTTP Response Header Fields </b> <br>
+        - Accept-Ranges <br>
+        - Vary <br>
+        - Age <br>
+        - Server <br>
+        - Location <br>
+        - Proxy-Authenticate <br>
+        - Retry-After <br>
+        - ETag <br> <br>
+        
+        <b> HTTP Request Message</b> <br>
+        This is the request message from a client to server includes.
+        <br> <br>
+        
+        <b> Request Line</b> <br>
+        This is the first line of a request message which consists of the method token, followed by the Request-URI with its associated protocol version, and ending with CRLF. <br>
+        - Method <br>
+        - Request Target <br> 
+        - Protocol Section <br>
+        <b> Method - Token </b>
+        The method-token indicates the method to be be performed on the resource identified by the Request-URI. Refer to <u>HTTP Header Fields </u> for the HTTP Request Header Fields. <br> <br> 
+        
+        <b> Message Body</b> <br>
+         This carries the entity-body of the request or response that is associated with it. <br> <br>
+            
+        <b> HTTP Response Message</b> <br>
+        After receiving and interpreting a request message, a server responds with a response message. <br> <br>
+        
+        <b> Status-Line </b> <br> 
+        This is the first line of a response message which consists of the protocol version a numeric status code and its associated textual phrase. <br> <br>
+        
+        <b> Status-Code </b> <br>
+        This element is a 3-digit integer result code of the attempt to understand and satisfy the request made. It is intended for use by machines. <br> <br>
+        
+        <b>Reason-Phrase</b> <br>
+        This element is intended to give a short textual description of the Status-Code, and is intended for the users. <br> <br>
+            
+        <b> HTTP Status Codes </b> <br>
+        These status codes may be referred to as browser error codes that may appear for the following reasons. <br>
+        <u> Informational (1xx)</u> <br>
+        100 - Continue <br>
+        101 - Switching Protocols <br>
+        103 - Processing <br>
+        104 - Early Hints <br> <br>
+        <u> Success (2xx)</u> <br>
+        200 - OK <br>
+        201 - Created <br>
+        202 - Accepted <br>
+        203 - Non-Authoritative Information <br>
+        204 - No Content <br>
+        205 - Reset Content <br>
+        206 - Partial Content <br>
+        207 - Multi-Status <br>
+        208 - Already Reported <br>
+        226 - IM used <br> <br>
+        <u> Redirection (3xx)</u> <br>
+        300 - Multiple Choices <br>
+        301 - Moved Permanently <br>
+        302 - Found <br>
+        303 - See Other <br>
+        304 - Not Modified <br>
+        305 - Use Proxy <br>
+        306 - (Unused) <br>
+        307 - Temporary Redirect <br>
+        308 - Permanent Redirect <br> <br>
+        <u> Client Error (4xx)</u> <br>
+        400 - Bad Request <br>
+        401 - Unauthorized <br>
+        402 - Payment Required <br>
+        403 - Forbidden <br>
+        404 - Not Found <br>
+        405 - Method Not Allowed <br>
+        406 - Not Acceptable <br>
+        407 - Proxy Authentication Required <br>
+        408 - Request Timeout <br>
+        409 - Conflict <br>
+        410 - Gone <br>
+        411 - Length Required <br>
+        412 - Precondition Failed <br>
+        413 - Request Entity Too Large <br>
+        414 - Request-URI Too Long <br>
+        415 - Unsupported Media Type <br>
+        416 - Requested Range Not Satisfiable <br>
+        417 - Expectation Failed <br>
+        421 - Misdirected Request <br>
+        422 - Unprocessable Entity <br>
+        423 - Locked <br>
+        424 - Failed Dependency <br>
+        426 - Upgrade Required <br>
+        428 - Precondition Required <br>
+        429 - Too Many Requests <br>
+        431 - Request Header Fields Too Large <br>
+        451 - Unavailable For Legal Reasons <br><br>
+        <u> Server Error (5xx)</u> <br>
+        500 - Internal Server Error <br>
+        501 - Not Implemented <br>
+        502 - Bad Gateway <br>
+        503 - Service Unavailable; Down Server <br>
+        504 - Gateway Timeout <br>
+        505 - HTTP Version Not Supported <br>
+        506 - Variant Also Negotiates <br>
+        507 - Insufficient Storage <br>
+        508 - Loop Detected <br>
+        510 - Not Extended <br>
+        511 - Network Authentication Required <br>
+
+        </p>
+        </div>
+        </div>
+  
     </div>
     
 </body>
