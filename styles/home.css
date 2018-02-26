@@ -1,6 +1,7 @@
 body{
     background-color: #0093c9;
     height: 100%;
+    margin: 0;
 }
 
 #home_wrapper{
@@ -18,7 +19,7 @@ body{
 }
 #home_button_container {
     align-items: center;
-    padding-top: 10px;
+    padding: 10px 9%;
     margin: 0 auto;
     margin-bottom: 40px;
     background: #77B6EA;
@@ -30,14 +31,27 @@ body{
     border-radius: 20px;
     align-content: center;
     padding-left: 20px;
-    padding-right:20px;
+    padding-right: 20px;
     width: 230px;
-    height: 100px;
+    height: 80px;
     float: left;
     background: #287aad;   
-    margin: 15px;
+    margin: 20px 57.5px 20px 57.5px;
     text-align: center;
+    
 }
+
+#home_button_pre{
+    vertical-align: middle;
+    display: inline-block;
+    color: white;
+    font-size: 25px;
+    font-family: Arial;
+    line-height: 1.25;
+    padding-top: 34px;
+    padding-bottom: 16px;
+}
+
 a{
     vertical-align: middle;
     display: inline-block;
@@ -45,6 +59,7 @@ a{
     font-size: 25px;
     font-family: Arial;
     line-height: 1.25;
+    padding-top: 50px;
 }
 a:link{
     text-decoration: none;
