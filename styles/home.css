@@ -26,10 +26,12 @@ body{
 }
 
 #home_button_container > a {
+    border: 2px solid white;
+    border-radius: 20px;
     align-content: center;
     padding-left: 20px;
     padding-right:20px;
-    width: 234px;
+    width: 230px;
     height: 100px;
     float: left;
     background: #287aad;   
