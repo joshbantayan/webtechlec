@@ -34,6 +34,7 @@ li a:hover {
     
 }
 
+
 .title_container{
     height: 70px;
     padding-top: 5px;
@@ -51,10 +52,8 @@ li a:hover {
     background-color: #C0F7DE;
     font-size: 30px;
     font-family: Arial;
-
     padding-left:20px;
     }
-
 
 #section_title {
     height: 70px;
