@@ -21,7 +21,7 @@ body{
     padding-top: 10px;
     margin: 0 auto;
     margin-bottom: 40px;
-    background: gray;
+    background: #77B6EA;
     overflow-y: auto;
 }
 
@@ -32,20 +32,32 @@ body{
     width: 234px;
     height: 100px;
     float: left;
-    background: lightgray;   
+    background: #287aad;   
     margin: 15px;
+    text-align: center;
 }
-
-a:link{
+a{
+    vertical-align: middle;
+    display: inline-block;
     color: white;
-    font-size: 20px;
+    font-size: 25px;
+    font-family: Arial;
+    line-height: 1.25;
+}
+a:link{
+    text-decoration: none;
     margin-top: 40px;
     align-items: center;
     text-align: center;
 }
 
 a:hover {
+    text-decoration: none;
     box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
     background-color: #51b9e6;
 
+}
+
+a:visited{
+    text-decoration: none;
 }
