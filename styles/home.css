@@ -1,13 +1,13 @@
-body{
-
+#home_button_container {
+    width: 600px;
+    background: gray;
+    overflow-y: auto;
 }
 
-#navigation {
-    display: block;
-    size: relative;
-    height: 100%;
-    width: 70px;
-    background-color: pink;
-    margin-top: 0px;
-    position: static;
+#home_button_container > a {
+    width: 150px;
+    height: 100px;
+    float: left;
+    background: lightgray;   
+    margin: 15px;
 }
