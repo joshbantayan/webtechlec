@@ -28,6 +28,37 @@ li a:hover {
     background-color: #3a3f64;
 }
 
+#www_container{
+    background-color: #CBE7EF;
+    background-size: cover;
+    
+}
+
+#www_title_container{
+    height: 70px;
+    padding-top: 5px;
+    padding-bottom: 30px;
+    background-color: #25283D;
+    color: white;
+    text-align: center;
+    font-family: Arial;
+    font-size: 30px;
+    letter-spacing: 4px; 
+}
+
+.www_section_title{   
+        width: 390px;
+    background-color: #C0F7DE;
+    font-size: 30px;
+    font-family: Arial;
+
+    padding-left:20px;
+    }
+
+.www_content{
+    font-size: 24px;
+}
+
 #http_title {
     height: 70px;
     padding-top: 5px;
@@ -51,7 +82,7 @@ li a:hover {
 }
 
 .http_section_content {
-
+    padding-left: 30px;
     font-family: Arial;
     color: white;
     background-color: #006989;
