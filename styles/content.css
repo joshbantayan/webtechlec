@@ -1,3 +1,6 @@
+body{
+    margin: 0;
+}
 ul {
     list-style-type: none;
     margin: 0;
@@ -22,5 +25,34 @@ li a {
 
 li a:hover {
     box-shadow: inset 0 0 10px #000000;
+    background-color: #3a3f64;
+}
+
+#http_title {
+    height: 70px;
+    padding-top: 5px;
+    padding-bottom: 30px;
+    background-color: #25283D;
+    color: white;
+    text-align: center;
+    font-family: Arial;
+    font-size: 30px;
+    letter-spacing: 4px;
+}
+
+.http_section_title {
+    text-align: center;
+    text-decoration: bold;
+    color: white;
+    font-size: 20px;
+    font-family: Arial;
+    background-color: #ebb681;
+    padding: 2px;
+}
+
+.http_section_content {
+    font-family: Arial;
+    color: white;
     background-color: #006989;
+    padding: 2px;
 }
