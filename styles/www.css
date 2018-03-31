@@ -1,0 +1,88 @@
+@font-face{
+    font-family: Gtek;
+    src: local(Fonts\qbotype-fonts_gtek-technology\Gtek Technology free promo.ttf) format("ttf");
+}
+
+html {
+    background-color: lightgrey;
+}
+
+#www_container{
+    margin-right: 5%;
+    margin-left: 5%;
+    position: absolute;
+    background-color: seashell;
+    display: block;
+    box-shadow:0 1px 10px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+}
+
+ul {
+    height: 50px;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: grey;
+    box-shadow:0 1px 10px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+}
+ul img{
+    height: 30px;
+    width: inherit;
+    display: inherit;
+}
+
+ul img:hover{
+  -webkit-filter: drop-shadow(6px 6px 10px #000000);
+  filter: drop-shadow(6px 6px 10px #000000);
+}
+
+li {
+    float: right;
+}
+
+li a {
+    font-family: Gtek;
+    letter-spacing: 2px;
+    display: block;
+    color: gold;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    color: goldenrod;
+    text-shadow: 6px 6px 10px #000000;
+}
+
+#www_title{
+    color: gold;
+    font-size: 40px;
+    text-shadow: 2px 2px 4px grey;
+    text-align: center;
+    letter-spacing: 4px;
+    font-family: Arial;
+}
+
+.www_section{
+    display: block;
+    margin-left: 5%;
+    margin-right: 5%;
+    color: darkslategray;
+}
+
+.www_section b{
+    color: cadetblue;
+}
+
+.www_section_title{
+    font-size: 25px;
+    text-decoration: bold;
+    color: goldenrod;
+}
+
+.www_content{
+    display: block;
+    color: darkslategray;
+}
+
