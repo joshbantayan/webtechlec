@@ -1,57 +1,57 @@
-body {
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+@import url('https://fonts.googleapis.com/css?family=Montserrat|Ubuntu');
+
+html, body {
     margin: 0;
     padding: 0;
-    background-color: #0780b5;
+    width: 100%;
+    height: 100%;
 }
 
-#welcome_text{
-    font-family: Arial;
-    border: 2px 2px solid #0896d4;
+.landing {
+    height: 100%;
+    width: 100%;
+    margin: auto;
+    background: url(../images/landingbg.jpg) no-repeat 50% 50%;
+    display: table;
+    top: 0;
+    background-size: cover;
+}
+
+.landing .container {
+    display: table-cell;
+}
+
+.content {
+    padding-top: 180px;
+    max-width: 500px;
+    margin: 0 auto;
     text-align: center;
-    font-size: 100px;
-    align-content: center;
-    color: white;
 }
 
-#welcome_sub {
-    font-family: Arial;
-    text-align: center;
+.content h1{
+    border-bottom: 5px white;
+    font-family: "Montserrat";
     color: white;
+    text-shadow: 0px 0px 300px #000;
+    font-size: 300%;
 }
 
-#start {
-    margin-left: auto;
-    margin-right: auto;
-    width: 8em
-}
-
-a:link{
-    font-family: Arial;
-    color: white;
-    font-size: 40px;
+.btn {
+    font-size: 20px;
+    font-family: "Ubuntu";
+    padding: 5px 25px 5px 25px;
+    border: 3px solid #A85C18;
+    border-radius: 20px;
     text-decoration: none;
-    transition-duration: 0.4s;
-    padding: 10px 20px 10px 20px;
-    background-color: #0896d4;
-    border-radius: 10px;
-    border: 2px solid;
+    text-transform: uppercase;
+    color: #A85C18;
 }
 
-a:hover {
-    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
-    background-color: #0a9fe0;
-
-}
-
-a:active {
-  background-color: #0a9fe0;
-  box-shadow: 0 5px #666;
-  transform: translateY(4px);
-
-}
-
-a:visited {
-    background-color: #0a9fe0;
+.btn:hover {
+    font-size: 20px;
+    font-family: "Ubuntu";
+    border: 3px solid white;
     color: white;
+    transition-duration: 0.3s;
 }
-
