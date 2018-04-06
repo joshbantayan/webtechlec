@@ -1,5 +1,5 @@
 @font-face{
-    font-family: Gtek;
+    font-family: "Gtek";
     src: local(Fonts\qbotype-fonts_gtek-technology\Gtek Technology free promo.ttf) format("ttf");
 }
 
@@ -7,7 +7,7 @@ html {
     background-color: lightgrey;
 }
 
-#www_container{
+#container{
     margin-right: 5%;
     margin-left: 5%;
     position: absolute;
@@ -55,7 +55,7 @@ li a:hover {
     text-shadow: 6px 6px 10px #000000;
 }
 
-#www_title{
+#title{
     color: gold;
     font-size: 40px;
     text-shadow: 2px 2px 4px grey;
@@ -64,24 +64,24 @@ li a:hover {
     font-family: Arial;
 }
 
-.www_section{
+.section{
     display: block;
     margin-left: 5%;
     margin-right: 5%;
     color: darkslategray;
 }
 
-.www_section b{
+.section b{
     color: cadetblue;
 }
 
-.www_section_title{
+.section_title{
     font-size: 25px;
     text-decoration: bold;
     color: goldenrod;
 }
 
-.www_content{
+.content{
     display: block;
     color: darkslategray;
 }

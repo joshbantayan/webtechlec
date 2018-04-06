@@ -3,16 +3,16 @@ html {
     width: 100%;
     margin: auto;
     background: url(pictures/landingbg.jpg) no-repeat 50% 50%;
-    display: table;
+    background-attachment:fixed;
     top: 0;
     background-size: cover;
 }
 
-#container{
+.container{
     margin-right: 5%;
     margin-left: 5%;
     position: relative;
-    background-color: rgba(0, 0, 0, 0.5);
+    background-color: rgba(45, 0, 130, 0.4);
     display: block;
     box-shadow:0 1px 10px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
 }
@@ -37,7 +37,7 @@ ul img:hover{
   filter: drop-shadow(6px 6px 10px #000000);
 }
 
-li {
+ul li {
     float: right;
 }
 
@@ -72,9 +72,6 @@ li a:hover {
     color: darkslategray;
 }
 
-.section b{
-    color: darkgoldenrod;
-}
 
 .section_title{
     font-size: 25px;
@@ -84,9 +81,9 @@ li a:hover {
 
 .content{
     display: block;
-    color: antiquewhite;;
     margin-left: 5%;
     margin-right: 5%;
     line-height: 20px;
+    color: antiquewhite;
 }
 
