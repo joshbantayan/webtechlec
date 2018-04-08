@@ -45,6 +45,7 @@ ul li {
 }
 
 li a {
+    font-size: 13px;
     font-family: Gtek;
     letter-spacing: 2px;
     display: block;
@@ -55,8 +56,10 @@ li a {
 }
 
 li a:hover {
+    transition: 0.25s;
+    font-size: 15px;
     color: darkgoldenrod;
-    text-shadow: 6px 6px 10px #000000;
+    text-shadow: 6px 6px 10px #000;
 }
 
 #title{
