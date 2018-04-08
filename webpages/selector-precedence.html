@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title> CSS Selectors and Rule Precedence </title>
+        <link rel="stylesheet" href="../styles/main.css">
+	</head>
+
+<body>
+	<ul>
+		<li><a href="../webpages/home.html"><img src="../styles/pictures/home.png"></a></li>
+		<li><a href="../webpages/www.html">Topic 1</a></li>
+		<li><a href="../webpages/statements-rulesets.html">Statements and Rule Sets</a></li>
+		<li><a href="../webpages/selector-precedence.html">Selectors and Rule Precedence</a></li>
+        <li><a href="../webpages/http.html">Topic 4</a></li>
+        <li><a href="../webpages/http.html">Topic 5</a></li>
+        <li><a href="../webpages/http.html">Topic 6</a></li>
+        <li><a href="../webpages/http.html">Topic 7</a></li>
+        <li><a href="../webpages/http.html">Topic 8</a></li>
+	</ul>
+
+	<div class="container">
+            <div class="title" id="title">
+            <p> CSS Selectors and Rule Precedence</p>
+            </div>
+            
+            <div class="section_title"> 
+            <h2> CSS Selectors </h2>
+            </div>
+        
+            <div class="content">
+                <b> Selector Syntax </b> <br>
+                - sequence of one or more simple selectors separated by combinators with one-pseudo element possibly appended to the last sequence. <br>
+                - always starts with a type selector or a universal selector. <br>
+                - cannot contain other type selectors or universal selectors <br> <br>
+                
+                <ol>
+                    <li> Selector Group <br>
+                        - comma-separated list of selectors. <br>
+                        - represents the union of all elements selected by each of the selectors in the list. <br> <br>
+                    </li>
+                    <li> Combinators <br>
+                        - Descendant combinator (whitespaces, space, tabs, etc.) <br>
+                        - Child combinators ( > ) <br>
+                        - Sibling combinator: <br> Adjacent sibling combinator ( + ), General sibling combinator ( ~ ) <br> <br>
+                    </li>
+                    <li> Simple Selectors <br>
+                        - Universal Selector <br>
+                        - Type Selectors <br>
+                        - ID Selectors <br>
+                        - Class Selectors <br>
+                        - Attribute Selectors <br>
+                        - Psuedo-Classes <br>
+                        <ol>
+                            <li>
+                                Dynamic Pseudo-Classes <br>
+                                - Link Pseudo-Classes 
+                                (<i>:link, :visited</i>) <br>
+                                - User-Action Pseudo-Class
+                                (<i>:hover, :active, :focus</i>) <br>
+                            </li>
+                            <li>
+                                Target Pseudo-Classes <br>
+                                <i> :target </i> <br>
+                            </li>
+                            <li>
+                                Language Pseudo-Classes <br>
+                                <i> :lang() </i> <br>
+                            </li>
+                            <li>
+                                UI Element States Pseudo-Classes <br>
+                                <i> :enabled, :disabled, :checked, :intermediate</i>
+                            </li>
+                            <li>
+                                Structure Pseudo-Classes <br>
+                                <i> :root, :first-child, :last-child, :only-child, :Nth-child(), Nth-last-child, <br>
+                                :first-of-type, :last-of-type, :only-of-type, :nth-of-type(), :nth-last-of-type(), :empty</i>
+                            </li>
+                            <li>
+                                Negation Pseudo-Classes <br>
+                                <i> :not()</i>
+                            </li>
+                        </ol>
+                    </li>
+                    <br>
+                    <li>
+                        Pseudo-Elements <br>
+                        <i>::first-letter</i> <br>
+                        <i>::first-line</i> <br>
+                        <i>::before</i> <br>
+                        <i>::after</i> <br>
+                    </li>
+                </ol>
+            </div>
+        
+        <div class="section_title"> 
+            <h2> CSS Rule Precedence </h2>
+            </div>
+        <div class="content">
+            <ol>
+                <li>
+                    Resolution by origin and importance: <br>
+                    - Transition declaration <br>
+                    - Important user agent declaration <br>
+                    - Important user declaration <br>
+                    - Important override declaration <br>
+                    - Important author declaration <br>
+                    - Animation declaration <br>
+                    - Normal override declaration <br>
+                    - Normal author declaration <br>
+                    - Normal user declaration <br>
+                    - Normal user agent declaration <br> <br>
+                </li>
+                <li>
+                    Resolution by specificity (aka the count/value associated with how a selector is created) of: <br>
+                    - Count number of ID selectors in the selector. <br>
+                    - Count number of class selectors attributes selectors, pseudo-classes in the selector .<br>
+                    - Count number of type selectors and pseudo-elements in the selector. <br>
+                    - Ignorance of universal selectors. <br>
+                    <i> Example: concatenation of 3 numbers a-b-c in a number system with a large base</i>
+                </li>
+                 <br>
+                <li>
+                    By Order <br>
+                    - Last one wins <br>
+                </li>
+            </ol>
+         <h3> Note: </h3>
+            <p> <i>  If two selectors are in line with the same order of priority, then; otherwise, if the selectors are in line with the same order of specificity and priority, then the last one declared is taken.</i> </p> <br>
+        </div>
+    </div>
+    </body>
+</html>
