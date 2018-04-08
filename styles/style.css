@@ -12,7 +12,8 @@ html, body {
     height: 100%;
     width: 100%;
     margin: auto;
-    background: url(pictures/landingbg.jpg) no-repeat 50% 50%;
+    background:linear-gradient( rgba(0, 0, 0, 1), rgba(0, 0, 0, 0.5) ), url(pictures/landingbg.jpg) no-repeat 50% 50%;
+    opacity: 10;
     display: table;
     top: 0;
     background-size: cover;
