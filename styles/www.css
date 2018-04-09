@@ -3,6 +3,10 @@
     src: local(Fonts\qbotype-fonts_gtek-technology\Gtek Technology free promo.ttf) format("ttf");
 }
 
+body {
+    padding-left: 500px;
+}
+
 html {
     background-color: lightgrey;
 }
@@ -64,8 +68,8 @@ li a:hover {
     font-family: Arial;
 }
 
-#logo{
-    width: 300px;
+.logo{
+    width: 500px;
 }
 
 .section{
