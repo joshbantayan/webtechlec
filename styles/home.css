@@ -74,12 +74,17 @@ a{
     margin-left: 20px;
 }
 
+#grid-js-type a{
+    top: 5%;
+}
+
 .grid-item:hover{
     transition: 0.25s;
     border-style: solid;
     box-shadow: 6px 6px 6px 8px black;
     background-color: rgba(220, 203, 0, 0.1);
 }
+
 
 .menu_container{
     width 100%;
