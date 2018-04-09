@@ -64,6 +64,10 @@ li a:hover {
     font-family: Arial;
 }
 
+#logo{
+    width: 300px;
+}
+
 .section{
     display: block;
     margin-left: 5%;
