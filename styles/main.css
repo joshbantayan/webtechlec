@@ -131,7 +131,8 @@ a:hover{
     box-shadow: 
     color: gold;
   background-color: #5E4991;
-=======
+}
+    
 .sticky{
     position: fixed;
     top: 0;
@@ -140,5 +141,5 @@ a:hover{
 
 .sticky + .container{
     padding-top: 60px;
->>>>>>> Stashed changes
+
 }
