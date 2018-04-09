@@ -24,6 +24,14 @@ html {
     margin-top: 0px;
     top: 0;
 }
+
+#logo{
+    padding-left: 50px;
+    width: 200px;
+    height: 60px;
+    padding-top: 10px;
+}
+
 .title{
     text-align: center;
     font-family: 'neonlights', sans-serif;
